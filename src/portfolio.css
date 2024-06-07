@@ -66,6 +66,7 @@ margin-top: 250px;
         }
     }
     .about-section-container {
+        text-align: left;
     }
     .about-section {
         padding: 160px 20px;
@@ -74,14 +75,20 @@ margin-top: 250px;
         font-size: 64px;
         line-height: 80px;
         padding:  10px 20px 16px 0px;
+        text-align: left;
     }
     .about-section h2 {
         padding-bottom: 10px;
+        text-align: left;
     }
     .about-section p {
         font-family: var(--first-font-family);
+        text-align: left;
     }
     .imagecontact {
         border-radius: 30px;
         height: 80%;
+    }
+    .work-section {
+        font-size: 30;
     }
