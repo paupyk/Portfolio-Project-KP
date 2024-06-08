@@ -89,6 +89,17 @@ margin-top: 250px;
         border-radius: 30px;
         height: 80%;
     }
-    .work-section {
-        font-size: 30;
+    .content h3 {
+        font-size: 30px;
+        font-family: var(--first-font-family);
+        line-height: 2;
+    
+    }
+    .content p {
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+    .works {
+        max-width: 30%;
     }
