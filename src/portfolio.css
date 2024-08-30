@@ -1,5 +1,5 @@
 :root {
-    --background-color: #202020;
+    --background-color: #eddaf9;
     --secondary-background-color: #FFFFFF;
     --first-font-family: "Roboto" sans-serif;
     --secondary-font-family: "Montserrat" sans-serif;
@@ -104,6 +104,7 @@ h4 {
     footer .email-link:hover {
         color: #b8b8fc;
     }
+    
     footer .social-links a {
         background: var(--secondary-background-color);
         border-radius: 50%;
@@ -111,6 +112,7 @@ h4 {
         font-size: 18px;
         margin: 0 20px;
         padding: 10px 14px;
+        text-decoration: none;
         transition: all 15ms ease-in-out;
     }
     footer .social-links a:hover {
@@ -119,11 +121,13 @@ h4 {
     }
     footer {
         line-height: 3;
+        padding-bottom: 3cqh;
     }
     footer .contact-box {
-        background: #2d2b2b;
+        background: hsl(288, 2%, 46%);
         border-radius: 10px;
-
+        margin-bottom: 15px;
+        opacity: 0.7;
         padding: 30px 120px;
     }
     @media (max-width: 900px) {
@@ -132,6 +136,14 @@ h4 {
             text-align: center;
         }
     }
+        .content-skills {
+            display: flex;
+            color: #2d2b2b;
+            justify-content: space-evenly;
+            margin-top: 60px;
+            padding-left: 50px;
+            padding-bottom: 50px;
+        }
     .about-section-container {
         text-align: left;
     }
@@ -173,3 +185,15 @@ h4 {
     .contact h1 {
         font-size: 56px;
     }
+.body-of-work a {
+            background-color: #FFFFFF;
+            border-radius: 50px;
+            font-family: var(--secondary-font-family);
+            font-size: 18px;
+            margin-top: 10px;
+            padding: 10px 20px;
+        }
+.body-of-work p {
+    font-size: 20px;
+    line-height: 1.5;
+}
